@@ -1,0 +1,81 @@
+
+.Cell{
+    display: inline-block;
+    height: 5vh;
+    width: 8vw;
+    border-left: 1px solid black;
+    /* border-right: 1px solid black; */
+    padding: 0%;
+}
+
+.row{
+    /* height: 8vh; */
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.Coin{
+    margin-top: 1.5vh;
+    margin-left: 3vw;
+    background-color: yellow;
+    border-radius: 50%;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+}
+
+.Empty{
+    /* display: inline-block;
+    height: 5vh;
+    width: 8vw; */
+    margin-top: 1.5vh;
+    margin-left: 3vw;
+    /* background-color: yellow; */
+    border-radius: 50%;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+}
+
+.Wall{
+    display: inline-block;
+    height: 5vh;
+    width: 8vw;
+    background-color: brown;
+    margin: 0%;
+}
+
+.Player1{
+    margin-top: 1.5vh;
+    margin-left: 3vw;
+    /* padding: 5px; */
+    background-color: blue;
+    border-radius: 50%;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+}
+
+.Player2{
+    margin-top: 1vh;
+    margin-left: 3vw;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+}
+
+#players > div{
+    display: inline-block;
+}
+
+#p2{
+    float: right;
+}
+
+#start{
+    background-color: greenyellow;
+    width: 99vw;
+    height: 8vh;
+}
